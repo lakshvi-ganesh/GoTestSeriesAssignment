@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    width:100%;
+    margin:0;
+
+}
+header{
+    background-color: darkslategrey;
+    height:12vh;
+    -webkit-background-size:cover;
+background-size: cover;
+background-position: center center;
+position: relative;
+}
+
+.nav-area{
+    display:flex;
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+    text-align: center;
+}
+.nav-area li{
+    display: inline-block;
+}
+#search-txt{
+    float: left;
+    margin-top: 30px;
+    margin-left:5px;
+    padding: 5px;
+    border-radius: 3px;   
+}
+.active{
+    background-color: white;
+}
+.nav-area li a{
+    color:black;
+    text-decoration:none;
+    padding: 5px 20px;
+    font-family:'Times New Roman';
+    font-size: 14px;
+    display:block;
+    
+}
+
+.nav-area li a:hover{
+    background:darkslategray;
+    color:white;
+    border-radius: 5px;
+}
+.logo img{
+    float: left;
+    height: auto;
+    border-radius: 100px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.first{
+    width:23%;
+    float: left;
+    min-height:1px;
+    
+}
+.middle{
+    width:46%;
+    float: left;
+    
+}     
+.posted{
+    
+    text-align: center;
+    border: 3px solid gray;
+    background-color:white;
+    margin: 25px 5px 25px 5px;
+}
+#para{
+    margin: 5px;
+
+}
+.last{
+    width:23%;
+    float:left;
+    min-height: 1px;
+    
+ }
+.icons{
+    list-style: none;
+    display: flex;
+    
+}
+.icons li a{
+    color:black;
+    text-decoration:none;
+    padding-inline-end: 20px;
+    padding-inline-start: 20px;
+    font-size: 15px;
+    display: inline-block;
+    
+}
+
+.icons li a:hover{
+    background:white;
+    color:blue;
+    border-radius: 5px;
+}
+.a-post{
+    display: block;
+    text-align: justify;
+    border: 3px solid gray;
+    background-color:white;
+     margin: 25px 5px 25px 5px;
+     
+}
+
+.a-post a{
+    color:black;
+    text-decoration:none;
+    padding-inline-end: 20px;
+    padding-inline-start: 20px;
+    font-size: 15px;
+    display: flex;
+    margin: 25px 5px 25px 5px;
+    
+}
+
+.a-post a:hover{
+    background:white;
+    color:blue;
+    border-radius: 5px;
+}
+.icons-above{
+    list-style: none;
+    display: flex;
+    
+}
+.icons-above li a{
+    color:black;
+    text-decoration:none;
+    padding-inline-end: 20px;
+    padding-inline-start: 20px;
+    font-size: 15px;
+    display: inline-block;
+    
+}
+.icons-above li a:hover{
+    background:white;
+    color:blue;
+    border-radius: 5px;
+}
